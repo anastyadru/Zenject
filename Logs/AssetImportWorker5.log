@@ -182,3 +182,67 @@ System memory in use after: 143.9 MB.
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4420.
 Total: 5.547000 ms (FindLiveObjects: 0.434000 ms CreateObjectMapping: 0.413600 ms MarkObjects: 4.518800 ms  DeleteObjects: 0.177800 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 4125.084360 seconds.
+  path: Assets/GameConfig.asset
+  artifactKey: Guid(48de24d7bc0d82b45985a636a37848a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameConfig.asset using Guid(48de24d7bc0d82b45985a636a37848a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8530099e777c29bed43e38676feb5ff0') in 0.155138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 576.235919 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(88b790f4ae39fb1458411548232e254d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(88b790f4ae39fb1458411548232e254d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6fe0a5b8909bf8568eb6bea8924e70b') in 0.007950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.933578 seconds.
+  path: Assets/Scripts/UI_Controller.cs
+  artifactKey: Guid(aea3d50e232491d469623f8ffd529f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI_Controller.cs using Guid(aea3d50e232491d469623f8ffd529f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59bc98ed50c5fb893d587f3a0ebe745') in 0.034089 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.078855 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 39.423 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3950 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.8 MB.
+System memory in use after: 143.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4425.
+Total: 10.449700 ms (FindLiveObjects: 0.500000 ms CreateObjectMapping: 0.436400 ms MarkObjects: 9.328500 ms  DeleteObjects: 0.182500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.126469 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.025 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3950 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.8 MB.
+System memory in use after: 143.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4429.
+Total: 6.369700 ms (FindLiveObjects: 0.573300 ms CreateObjectMapping: 0.542900 ms MarkObjects: 5.032700 ms  DeleteObjects: 0.217400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 475.806577 seconds.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(aea3d50e232491d469623f8ffd529f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(aea3d50e232491d469623f8ffd529f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3668b1c668caed2837dbf5f4694818fa') in 0.041840 seconds 
