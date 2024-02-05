@@ -15,11 +15,11 @@ G:/Учеба/C#/Unity задачи/Zenject
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53191
+49858
 Successfully changed project path to: G:/Учеба/C#/Unity задачи/Zenject
 G:/Учеба/C#/Unity задачи/Zenject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 265.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 249.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,16 +35,58 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.1.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2021.1.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017032 seconds.
+Registered in 0.005192 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 420.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 255.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  9.175 seconds
+- Completed reload, in  2.651 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.041264 seconds.
+Registered in 0.015170 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 251.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.911 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3958 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.6 MB.
+System memory in use after: 144.1 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4406.
+Total: 7.782500 ms (FindLiveObjects: 1.419000 ms CreateObjectMapping: 0.715000 ms MarkObjects: 5.430700 ms  DeleteObjects: 0.212600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/UIController.cs
+  artifactKey: Guid(aea3d50e232491d469623f8ffd529f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIController.cs using Guid(aea3d50e232491d469623f8ffd529f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a673bc1583d7643c7ea4f69877fc338') in 0.058033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000559 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(92f3109cd2adfed4e806884b9e2c1e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(92f3109cd2adfed4e806884b9e2c1e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b4f4b015fd12a7608c03b7f8b5deb2') in 0.016614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Scripts/GameConfig.cs
+  artifactKey: Guid(4622c0bfa9ebf9740ae3abdc4d165c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameConfig.cs using Guid(4622c0bfa9ebf9740ae3abdc4d165c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03773b2a6fb106fb7e9c7d52b8108c14') in 0.017112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Scripts/GameController.cs
+  artifactKey: Guid(d7adf757fd8acaf40bcb66617288a9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameController.cs using Guid(d7adf757fd8acaf40bcb66617288a9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25dafb2d6b2aca9e2c8c27ceede11dc9') in 0.017230 seconds 
