@@ -1,9 +1,14 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using Zenject;
 
 public class UIController : MonoBehaviour
 {
     [SerializeField] private GameObject _menuPanel;
     [SerializeField] private GameObject _gamePanel;
+    
+    [Inject]
     private GameController _gameController;
 
     void OnValidate()
