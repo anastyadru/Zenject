@@ -4,6 +4,7 @@ public class UIController : MonoBehaviour
 {
     [SerializeField] private GameObject _menuPanel;
     [SerializeField] private GameObject _gamePanel;
+    private GameController _gameController;
 
     void OnValidate()
     {
@@ -31,14 +32,14 @@ public class UIController : MonoBehaviour
 
     public void OnExitBtnClicked()
     {
-        
+        _gameController.Exit();
     }
     public void OnPlayBtnClicked()
     {
-        
+        _gameController.Play();
     }
     public void OnRestartBtnClicked()
     {
-        
+        _gameController.Restart();
     }
 }
