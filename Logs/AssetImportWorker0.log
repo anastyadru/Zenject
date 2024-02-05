@@ -170,3 +170,43 @@ Received Import Request.
   path: Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/SpaceShip/Space_Shooter.fbm/1K_Body-NM.jpg
   artifactKey: Guid(9d1afd1910615b04c85c97274b296bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Plugins/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/SpaceShip/Space_Shooter.fbm/1K_Body-NM.jpg using Guid(9d1afd1910615b04c85c97274b296bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b8ecfcdb0c79c166a957136b2d9c16') in 0.202160 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.192952 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.288 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3953 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.2 MB.
+System memory in use after: 153.3 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4516.
+Total: 6.346700 ms (FindLiveObjects: 0.740100 ms CreateObjectMapping: 0.805200 ms MarkObjects: 4.581300 ms  DeleteObjects: 0.216600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011154 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.101 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3950 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.2 MB.
+System memory in use after: 153.3 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4520.
+Total: 8.837700 ms (FindLiveObjects: 3.292500 ms CreateObjectMapping: 0.670700 ms MarkObjects: 4.677600 ms  DeleteObjects: 0.193900 ms)
+
