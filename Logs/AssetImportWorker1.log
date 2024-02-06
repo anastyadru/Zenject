@@ -555,3 +555,73 @@ Received Import Request.
   path: Assets/Scripts/ScriptableObjectInnstaller.cs
   artifactKey: Guid(7a62857b445788245ada32387e77d025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/ScriptableObjectInnstaller.cs using Guid(7a62857b445788245ada32387e77d025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de7cb143c96837bb20177eece973704') in 0.016378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.536371 seconds.
+  path: Assets/Scripts/ScriptableObjectInnstaller.cs
+  artifactKey: Guid(7a62857b445788245ada32387e77d025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjectInnstaller.cs using Guid(7a62857b445788245ada32387e77d025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44425125b2bc03e29c6d4a22ed05677b') in 0.015006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.373157 seconds.
+  path: Assets/Scripts/SoInstaller.cs
+  artifactKey: Guid(7a62857b445788245ada32387e77d025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SoInstaller.cs using Guid(7a62857b445788245ada32387e77d025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ee355fb0522323af4dc88aa02bc2e0') in 0.022432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.857609 seconds.
+  path: Assets/Scripts/SoInstaller.cs
+  artifactKey: Guid(7a62857b445788245ada32387e77d025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SoInstaller.cs using Guid(7a62857b445788245ada32387e77d025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3efdf2fe8e6ca6f60ddfd9f1e8023aa1') in 0.012846 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.049057 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 7.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.602 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3954 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.1 MB.
+System memory in use after: 144.2 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4490.
+Total: 7.791500 ms (FindLiveObjects: 1.200400 ms CreateObjectMapping: 0.769200 ms MarkObjects: 5.506800 ms  DeleteObjects: 0.312000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.432861 seconds.
+  path: Assets/Scripts/SoInstaller.cs
+  artifactKey: Guid(7a62857b445788245ada32387e77d025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SoInstaller.cs using Guid(7a62857b445788245ada32387e77d025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf15749c0711cc4bfe38aa7adbc07ed') in 0.015907 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015735 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.429 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 22.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3954 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.1 MB.
+System memory in use after: 144.2 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4494.
+Total: 4.428100 ms (FindLiveObjects: 0.527100 ms CreateObjectMapping: 0.316300 ms MarkObjects: 3.418100 ms  DeleteObjects: 0.163300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 947.274985 seconds.
+  path: Assets/Scripts/SoInstaller.cs
+  artifactKey: Guid(7a62857b445788245ada32387e77d025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SoInstaller.cs using Guid(7a62857b445788245ada32387e77d025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e859bc8fc981d47e0c014570b30195d') in 0.011487 seconds 
