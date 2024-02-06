@@ -8,5 +8,6 @@ public class GameInstaller : MonoInstaller
     public override void InstallBindings()
     {
         Container.Bind<TimeController>().AsSingle();
+        Container.Bind<UnitPositionController>().AsSingle();
     }
 }

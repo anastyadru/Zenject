@@ -10,4 +10,5 @@ public class GameConfig : ScriptableObject
     public float OpponentMaxSpeed;
     public float PlayerSpeed;
     public Vector3 StartPos;
+    public float DistanceBetweenOpponents;
 }
