@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Zenject;
 
+[CreateAssetMenu(fileName = "SoInstaller", menuName = "Create SO Installer")]
 public class SoInstaller: ScriptableObjectInstaller
 {
     [SerializeField] 
