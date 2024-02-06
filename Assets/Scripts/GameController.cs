@@ -6,8 +6,14 @@ public class GameController : MonoBehaviour
 {
     public bool CanMove { get; set; }
     
-    [Inject]
-    private TimeController _timeController;
+    [Inject] private TimeController _timeController;
+    [Inject] private UnitPositionController _positionController;
+
+    public void Start()
+    {
+        Debug.Log(_positionController.GetNewPos());
+        Debug.Log(_positionController.GetNewPos());
+    }
 
     public void Play()
     {

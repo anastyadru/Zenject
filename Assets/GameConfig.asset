@@ -16,3 +16,5 @@ MonoBehaviour:
   OpponentMinSpeed: 2
   OpponentMaxSpeed: 3
   PlayerSpeed: 1
+  StartPos: {x: 10, y: 3, z: 4}
+  DistanceBetweenOpponents: 1
