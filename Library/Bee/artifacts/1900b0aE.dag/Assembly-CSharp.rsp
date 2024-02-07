@@ -355,6 +355,9 @@
 "Assets/Scripts/TimeController.cs"
 "Assets/Scripts/UIController.cs"
 "Assets/Scripts/UnitPositionController.cs"
+"Assets/Scripts/Units/AbstractUnit.cs"
+"Assets/Scripts/Units/OpponentController.cs"
+"Assets/Scripts/Units/PllayerController.cs"
 -langversion:8.0
 
 /deterministic
