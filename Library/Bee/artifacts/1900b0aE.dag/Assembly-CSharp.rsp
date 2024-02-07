@@ -357,7 +357,7 @@
 "Assets/Scripts/UnitPositionController.cs"
 "Assets/Scripts/Units/AbstractUnit.cs"
 "Assets/Scripts/Units/OpponentController.cs"
-"Assets/Scripts/Units/PllayerController.cs"
+"Assets/Scripts/Units/PlayerController.cs"
 -langversion:8.0
 
 /deterministic
