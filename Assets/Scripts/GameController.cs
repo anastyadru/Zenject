@@ -10,6 +10,7 @@ public class GameController : MonoBehaviour
     [Inject] private UnitPositionController _positionController;
     [Inject] private UIController _uiController;
     [Inject] private GameObject _finishPrefab;
+	[Inject] private GameConfig _gameConfig;
 
     public void Start()
     {
@@ -25,13 +26,13 @@ public class GameController : MonoBehaviour
     
     private void CreateFinish()
     {
-        GameObject.Instantiate(_finishPrefab);
+        GameObject.Instantiate(_finishPrefab, _gameConfig.FinishPos, Quaternion.identity);
     }
     
     public void Restart()
     {
         _uiController.ShowMenuPanel();
-        _ uiController.HideGamePanel();
+        _uiController.HideGamePanel();
     }
     
     public void Exit()

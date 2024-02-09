@@ -4,13 +4,20 @@ using UnityEngine;
 
 public class AbstractUnit : MonoBehaviour
 {
-    protected float _speed;
-    protected float _finishPos;
-    protected GameController _gameController;
+    [Inject] protected float _speed;
+    [Inject] protected float _finishPos;
+    [Inject] protected GameController _gameController;
 
     void Update()
     {
-        if(_gameController.CanMove)
+        if (_gameController.CanMove)
+        {
+            Move();
+        }
     }
-    
+
+    protected virtual void Move()
+    {
+        
+    }
 }
