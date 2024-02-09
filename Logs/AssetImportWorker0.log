@@ -72,3 +72,21 @@ Received Import Request.
   path: Assets/scr.cs
   artifactKey: Guid(8b12da938260cf14cae512e0241c3302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/scr.cs using Guid(8b12da938260cf14cae512e0241c3302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8a741df8951913620041f3ea8c97b2') in 0.090551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51971.777841 seconds.
+  path: Assets/Objects/finish.png
+  artifactKey: Guid(01d06d7dfe0b27241adde3579be8fecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/finish.png using Guid(01d06d7dfe0b27241adde3579be8fecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6442e42c5f0ef2fbc43326566bb08a8c') in 0.207907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.484292 seconds.
+  path: Assets/Scripts/GameController.cs
+  artifactKey: Guid(d7adf757fd8acaf40bcb66617288a9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameController.cs using Guid(d7adf757fd8acaf40bcb66617288a9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64be254a5135997eb25ca40ca064db64') in 0.446081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 324.892487 seconds.
+  path: Assets/Scripts/GameController.cs
+  artifactKey: Guid(d7adf757fd8acaf40bcb66617288a9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameController.cs using Guid(d7adf757fd8acaf40bcb66617288a9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef89a16fd8a53fd7aff014dbd5636e5') in 0.013061 seconds 
