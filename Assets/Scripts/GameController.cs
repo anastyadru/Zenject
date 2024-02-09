@@ -9,6 +9,7 @@ public class GameController : MonoBehaviour
     [Inject] private TimeController _timeController;
     [Inject] private UnitPositionController _positionController;
     [Inject] private UIController _uiController;
+    [Inject] private GameObject _finishPrefab;
 
     public void Start()
     {
@@ -19,12 +20,20 @@ public class GameController : MonoBehaviour
     {
         _uiController.HideMenuPanel();
         _uiController.ShowGamePanel();
+        createFinish();
     }
+    
+    private void CreateFinish()
+    {
+        GameObject.Instantiate(_finishPrefab);
+    }
+    
     public void Restart()
     {
         _uiController.ShowMenuPanel();
-        _uiController.HideGamePanel();
+        _ uiController.HideGamePanel();
     }
+    
     public void Exit()
     {
         EditorApplication.isPlaying = false;

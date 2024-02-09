@@ -9,8 +9,12 @@ public class SoInstaller: ScriptableObjectInstaller
     [SerializeField] 
     private GameConfig _config;
     
+    [SerializeField] 
+    private GameObject _finishPrefab;
+    
     public override void InstallBindings()
     {
         Container.BindInstance(_config);
+        Container.BindInstance(_finishPrefab);
     }
 }

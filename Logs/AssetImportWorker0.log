@@ -67,3 +67,14 @@ System memory in use after: 144.9 MB.
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4414.
 Total: 4.973700 ms (FindLiveObjects: 0.574100 ms CreateObjectMapping: 0.534700 ms MarkObjects: 3.644700 ms  DeleteObjects: 0.217300 ms)
 
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs
+  artifactKey: Guid(322e24e923b31854c97c9712faa8dc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(322e24e923b31854c97c9712faa8dc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3cf3acc9c18f5301b3e946dd203b27') in 0.038734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 728.776410 seconds.
+  path: Assets/Scripts/SoInstaller.cs
+  artifactKey: Guid(7a62857b445788245ada32387e77d025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SoInstaller.cs using Guid(7a62857b445788245ada32387e77d025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a01af532f39aa7d1b49a0c220886c5') in 0.086242 seconds 
