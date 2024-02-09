@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Zenject;
 
 public class OpponentController : AbstractUnit
 {
@@ -12,4 +13,6 @@ public class OpponentController : AbstractUnit
             Debug.Log("You loose");
         }
     }
+
+	public class OpponentFabrik : Factory<float, float, GameController, OpponentController>
 }

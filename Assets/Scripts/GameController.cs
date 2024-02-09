@@ -11,6 +11,7 @@ public class GameController : MonoBehaviour
     [Inject] private UIController _uiController;
     [Inject] private GameObject _finishPrefab;
 	[Inject] private GameConfig _gameConfig;
+	[Inject] private OpponentControlle.OpponentFabrik _opponentFabrik;
 
     public void Start()
     {
@@ -28,6 +29,11 @@ public class GameController : MonoBehaviour
     {
         GameObject.Instantiate(_finishPrefab, _gameConfig.FinishPos, Quaternion.identity);
     }
+
+	private void CreateOpponents()
+	{
+		var opponent = _opponentFabrik.Create(Random.Range(_gameConfig.OpponentMinSpeed, _gameConfig.OpponentMaxSpeed), _gameConfig.FinishPos.y, this);
+	}
     
     public void Restart()
     {
