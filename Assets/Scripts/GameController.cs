@@ -6,10 +6,9 @@ public class GameController : MonoBehaviour
 {
     public bool CanMove { get; set; }
     
-    [Inject] 
-    private TimeController _timeController;
-    [Inject] 
-    private UnitPositionController _positionController;
+    [Inject] private TimeController _timeController;
+    [Inject] private UnitPositionController _positionController;
+    [Inject] private UIController _uiController;
 
     public void Start()
     {
