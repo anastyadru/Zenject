@@ -12,15 +12,12 @@ public class GameController : MonoBehaviour
 
     public void Start()
     {
-        Debug.Log(_positionController.GetNewPos());
-        Debug.Log(_positionController.GetNewPos());
+        _uiController.HideGamePanel();
     }
 
     public void Play()
     {
-        _uiController.HideGamePanel();
-        // создать игрока и оппонентов
-        // создать финиш
+        _uiController.HideMenuPanel();
     }
     public void Restart()
     {
