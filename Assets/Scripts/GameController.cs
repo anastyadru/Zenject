@@ -18,10 +18,12 @@ public class GameController : MonoBehaviour
     public void Play()
     {
         _uiController.HideMenuPanel();
+        _uiController.ShowGamePanel();
     }
     public void Restart()
     {
-        
+        _uiController.ShowMenuPanel();
+        _uiController.HideGamePanel();
     }
     public void Exit()
     {
