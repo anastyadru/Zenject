@@ -18,6 +18,7 @@ public class GameController : MonoBehaviour
 
     public void Play()
     {
+        _uiController.HideGamePanel();
         // создать игрока и оппонентов
         // создать финиш
     }

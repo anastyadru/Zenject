@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 118737161}
   - component: {fileID: 118737160}
   - component: {fileID: 118737159}
+  - component: {fileID: 118737164}
   - component: {fileID: 118737163}
   m_Layer: 5
   m_Name: Canvas
@@ -237,8 +238,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aea3d50e232491d469623f8ffd529f09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _menuPanel: {fileID: 1399725781}
-  _gamePanel: {fileID: 784237767}
+--- !u!114 &118737164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118737158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0166d8ff8d905b048b2448179e1f5d11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _components:
+  - {fileID: 0}
+  _identifier: 
+  _useSceneContext: 0
+  _context: {fileID: 0}
+  _bindType: 0
 --- !u!1 &310279030
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,7 +580,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 118737163}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIController, Assembly-CSharp
         m_MethodName: OnRestartBtnClicked
         m_Mode: 1
@@ -696,7 +713,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 118737163}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIController, Assembly-CSharp
         m_MethodName: OnExitBtnClicked
         m_Mode: 1
@@ -912,7 +929,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 118737163}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIController, Assembly-CSharp
         m_MethodName: OnPlayBtnClicked
         m_Mode: 1
