@@ -35,6 +35,11 @@ public class GameController : MonoBehaviour
 	{
 		var opponent = _opponentFabrik.Create(Random.Range(_gameConfig.OpponentMinSpeed, _gameConfig.OpponentMaxSpeed), _gameConfig.FinishPos.y, this);
 	}
+
+	private void CreatePlayers()
+	{
+		var player = _playerFabrik.Create(_gameConfig.PlayerSpeed, _gameConfig.FinishPos.y, this);
+	}
     
     public void Restart()
     {
