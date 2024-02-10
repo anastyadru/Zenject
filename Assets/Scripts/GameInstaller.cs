@@ -9,5 +9,6 @@ public class GameInstaller : MonoInstaller
     {
         Container.Bind<TimeController>().AsSingle();
         Container.Bind<UnitPositionController>().AsSingle();
+        Container.BindFactory<float, float, GameController, PlayerController, PlayerController.PlayerFabrik>();
     }
 }
