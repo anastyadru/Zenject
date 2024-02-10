@@ -11,7 +11,8 @@ public class GameController : MonoBehaviour
     [Inject] private UIController _uiController;
     [Inject] private GameObject _finishPrefab;
 	[Inject] private GameConfig _gameConfig;
-	[Inject] private OpponentControlle.OpponentFabrik _opponentFabrik;
+	[Inject] private OpponentController.OpponentFabrik _opponentFabrik;
+	[Inject] private PlayerController.PlayerFabrik _playerFabrik;
 
     public void Start()
     {

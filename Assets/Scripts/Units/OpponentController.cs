@@ -14,5 +14,8 @@ public class OpponentController : AbstractUnit
         }
     }
 
-	public class OpponentFabrik : Factory<float, float, GameController, OpponentController>
+	public class PlayerFabrik : Factory<float, float, GameController, PlayerController>
+	{
+	
+	}
 }
