@@ -84,3 +84,21 @@ Received Import Request.
   path: Assets/GameScene.unity
   artifactKey: Guid(ccf9032c22c54894db3f16a90867f211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/GameScene.unity using Guid(ccf9032c22c54894db3f16a90867f211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1be49fca5ea84efeb30bdef7b9a63e') in 0.021585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45486.561844 seconds.
+  path: Assets/Scripts/GameController.cs
+  artifactKey: Guid(d7adf757fd8acaf40bcb66617288a9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameController.cs using Guid(d7adf757fd8acaf40bcb66617288a9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53227f4483d1a26d8cc365e27537b1a9') in 0.007731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.969854 seconds.
+  path: Assets/Scripts/GameInstaller.cs
+  artifactKey: Guid(db11c234079c9ee4b86bcd6c9859fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameInstaller.cs using Guid(db11c234079c9ee4b86bcd6c9859fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f93b5ad20e9b0e07195506a45f3e5a') in 0.018237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.866421 seconds.
+  path: Assets/Scripts/GameInstaller.cs
+  artifactKey: Guid(db11c234079c9ee4b86bcd6c9859fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameInstaller.cs using Guid(db11c234079c9ee4b86bcd6c9859fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fdecbd96ffd8ff098cc183cab27a3d7') in 0.007784 seconds 
