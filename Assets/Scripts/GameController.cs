@@ -16,7 +16,8 @@ public class GameController : MonoBehaviour
 	[Inject] private PlayerWonSignal _playerWonSignal;
 	[Inject] private OpponentWonSignal _opponentWonSignal;
 
-	private GameObject 
+	private GameObject _player;
+	private GameObject[] _opponents;
 
     public void Start()
     {
@@ -57,6 +58,7 @@ public class GameController : MonoBehaviour
 
         CreateFinish();
 
+		_positionController.Reset();
 		CreatePlayers();
 		CreateOpponents();
 
@@ -65,18 +67,30 @@ public class GameController : MonoBehaviour
 
 	private void CreateOpponents()
 	{
+		if (_opponents == null)
+		{
+			_opponents = new GameObject[_gameConfig.OpponentsCount];
+			for (int i = 0; i < _gameConfig.OpponentsCount; i++)
+			{
+				_opponents[i] = _opponentFabrik.Create(Random.Range(_gameConfig.OpponentMinSpeed, _gameConfig.OpponentMaxSpeed),
+				_gameConfig.FinishPos.y, this).gameObject;
+			}
+		}
+
 		for (int i = 0; i < _gameConfig.OpponentsCount; i++)
 		{
-			var opponent = _opponentFabrik.Create(Random.Range(_gameConfig.OpponentMinSpeed, _gameConfig.OpponentMaxSpeed),
-			_gameConfig.FinishPos.y, this);
-			opponent.transform.position = _positionController.GetNewPos();
+			_opponent[i].transform.position = _positionController.GetNewPos();
 		}
+
 	}
 
 	private void CreatePlayers()
 	{
-		var player = _playerFabrik.Create(_gameConfig.PlayerSpeed, _gameConfig.FinishPos.y, this);
-		player.transform.position = _positionController.GetNewPos();
+		if (_player == null)
+		{
+			_player = _playerFabrik.Create(_gameConfig.PlayerSpeed, _gameConfig.FinishPos.y, this).gameObject;
+		}
+		_player.transform.position = _positionController.GetNewPos();
 	}
     
     private void CreateFinish()
