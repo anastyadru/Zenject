@@ -4,7 +4,7 @@ using Zenject;
 
 public class GameController : MonoBehaviour
 {
-    public bool CanMove { get; set; }
+    public bool CanMove;
     
     [Inject] private TimeController _timeController;
     [Inject] private UnitPositionController _positionController;
