@@ -23,12 +23,11 @@ public class GameController : MonoBehaviour
     {
         _uiController.HideMenuPanel();
         _uiController.ShowGamePanel();
+
         createFinish();
-    }
-    
-    private void CreateFinish()
-    {
-        GameObject.Instantiate(_finishPrefab, _gameConfig.FinishPos, Quaternion.identity);
+
+		CreateOpponents();
+		CreatePlayers();
     }
 
 	private void CreateOpponents()
@@ -40,6 +39,11 @@ public class GameController : MonoBehaviour
 	{
 		var player = _playerFabrik.Create(_gameConfig.PlayerSpeed, _gameConfig.FinishPos.y, this);
 	}
+    
+    private void CreateFinish()
+    {
+        GameObject.Instantiate(_finishPrefab, _gameConfig.FinishPos, Quaternion.identity);
+    }
     
     public void Restart()
     {

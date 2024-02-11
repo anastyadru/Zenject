@@ -12,4 +12,7 @@ public class GameConfig : ScriptableObject
     public Vector3 StartPos;
     public Vector3 FinishPos;
     public float DistanceBetweenOpponents;
+
+    public GameObject PlayerPrefab;
+    public GameObject OpponentPrefab;
 }
