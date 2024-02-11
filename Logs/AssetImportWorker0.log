@@ -102,3 +102,45 @@ Received Import Request.
   path: Assets/Scripts/GameInstaller.cs
   artifactKey: Guid(db11c234079c9ee4b86bcd6c9859fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/GameInstaller.cs using Guid(db11c234079c9ee4b86bcd6c9859fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fdecbd96ffd8ff098cc183cab27a3d7') in 0.007784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32993.730925 seconds.
+  path: Assets/Scripts/GameConfig.cs
+  artifactKey: Guid(4622c0bfa9ebf9740ae3abdc4d165c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameConfig.cs using Guid(4622c0bfa9ebf9740ae3abdc4d165c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6a2fc956c7bc6b2b9ccef05e8c3ff0') in 0.076849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.342087 seconds.
+  path: Assets/Scripts/GameInstaller.cs
+  artifactKey: Guid(db11c234079c9ee4b86bcd6c9859fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameInstaller.cs using Guid(db11c234079c9ee4b86bcd6c9859fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73cddd64100484785c1b1c7901612ea') in 0.044625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.180791 seconds.
+  path: Assets/Scripts/GameInstaller.cs
+  artifactKey: Guid(db11c234079c9ee4b86bcd6c9859fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameInstaller.cs using Guid(db11c234079c9ee4b86bcd6c9859fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61294a292eae60aaebc2422ce61ec6e1') in 0.006027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.249985 seconds.
+  path: Assets/Scripts/GameInstaller.cs
+  artifactKey: Guid(db11c234079c9ee4b86bcd6c9859fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameInstaller.cs using Guid(db11c234079c9ee4b86bcd6c9859fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e067a943248b4d3b7f85504ef8ddd5') in 0.006804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.122834 seconds.
+  path: Assets/Scripts/GameInstaller.cs
+  artifactKey: Guid(db11c234079c9ee4b86bcd6c9859fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameInstaller.cs using Guid(db11c234079c9ee4b86bcd6c9859fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056c8da7ed171180dd2e982c9c7e19c3') in 0.020237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.449746 seconds.
+  path: Assets/Scripts/GameInstaller.cs
+  artifactKey: Guid(db11c234079c9ee4b86bcd6c9859fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameInstaller.cs using Guid(db11c234079c9ee4b86bcd6c9859fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad7bd2b22c74a9d5c5d4d5df5854b37') in 0.006106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 98.108163 seconds.
+  path: Assets/Scripts/GameInstaller.cs
+  artifactKey: Guid(db11c234079c9ee4b86bcd6c9859fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameInstaller.cs using Guid(db11c234079c9ee4b86bcd6c9859fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb01d43e528d6c442e120c220b3b97c1') in 0.039018 seconds 
