@@ -32,12 +32,18 @@ public class GameController : MonoBehaviour
 
 	private void CreateOpponents()
 	{
-		var opponent = _opponentFabrik.Create(Random.Range(_gameConfig.OpponentMinSpeed, _gameConfig.OpponentMaxSpeed), _gameConfig.FinishPos.y, this);
+		for (int i = 0; i < _gameConfig.OpponentsCount; i++)
+		{
+			var opponent = _opponentFabrik.Create(Random.Range(_gameConfig.OpponentMinSpeed, _gameConfig.OpponentMaxSpeed),
+			_gameConfig.FinishPos.y, this);
+			opponent.transform.position = _positionController.GetNewPos();
+		}
 	}
 
 	private void CreatePlayers()
 	{
 		var player = _playerFabrik.Create(_gameConfig.PlayerSpeed, _gameConfig.FinishPos.y, this);
+		player.transform.position = _positionController.GetNewPos();
 	}
     
     private void CreateFinish()
