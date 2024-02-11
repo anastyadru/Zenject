@@ -1,8 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerWonSignal : MonoBehaviour
+public class PlayerWonSignal : Signal<PlayerWonSignal>
+{
+
+}
+
+public class OpponentWonSignal : Signal<OpponentWonSignal>
 {
 
 }

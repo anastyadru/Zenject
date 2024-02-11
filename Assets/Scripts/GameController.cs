@@ -13,11 +13,27 @@ public class GameController : MonoBehaviour
 	[Inject] private GameConfig _gameConfig;
 	[Inject] private OpponentController.OpponentFabrik _opponentFabrik;
 	[Inject] private PlayerController.PlayerFabrik _playerFabrik;
+	[Inject] private PlayerWonSignal _playerWonSignal;
+	[Inject] private OpponentWonSignal _opponentWonSignal;
 
     public void Start()
     {
         _uiController.HideGamePanel();
+		_playerWonSignal.Listen(PlayerWonEvent);
+		_opponentWonSignal.Listen(OpponentWonEvent);
     }
+
+	public void PlayerWonEvent()
+	{
+		Debug.Log("Player won");
+		_timeController.SetPauseOn();
+	}
+
+	public void OpponentWonEvent()
+	{
+		Debug.Log("Opponent won");
+		_timeController.SetPauseOn();
+	}
 
     public void Play()
     {
