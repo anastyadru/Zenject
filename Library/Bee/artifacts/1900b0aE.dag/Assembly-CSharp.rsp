@@ -351,6 +351,7 @@
 "Assets/Scripts/GameConfig.cs"
 "Assets/Scripts/GameController.cs"
 "Assets/Scripts/GameInstaller.cs"
+"Assets/Scripts/PlayerWonSignal.cs"
 "Assets/Scripts/SoInstaller.cs"
 "Assets/Scripts/TimeController.cs"
 "Assets/Scripts/UIController.cs"
