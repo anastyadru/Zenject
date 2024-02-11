@@ -156,3 +156,21 @@ Received Import Request.
   path: Assets/Scripts/Units/AbstractUnit.cs
   artifactKey: Guid(8dd2d1f908caa5246a044a0459190f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/Units/AbstractUnit.cs using Guid(8dd2d1f908caa5246a044a0459190f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4274d50ea376a206e6d050a59176a6') in 0.044929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 779.942027 seconds.
+  path: Assets/Scripts/PlayerWonSing.cs
+  artifactKey: Guid(a22a250f881ccfe43bdf03a5d169eb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerWonSing.cs using Guid(a22a250f881ccfe43bdf03a5d169eb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d89bf5d67edf830d293a72fbd1ef98') in 0.021543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.799352 seconds.
+  path: Assets/Scripts/PlayerWonSignal.cs
+  artifactKey: Guid(a22a250f881ccfe43bdf03a5d169eb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerWonSignal.cs using Guid(a22a250f881ccfe43bdf03a5d169eb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c37f4e5d480f7f32eb7fb65fcb7d8e') in 0.006734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.385821 seconds.
+  path: Assets/Scripts/PlayerWonSignal.cs
+  artifactKey: Guid(a22a250f881ccfe43bdf03a5d169eb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerWonSignal.cs using Guid(a22a250f881ccfe43bdf03a5d169eb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5ed8c81ad2602f41126c149e1b3268') in 0.007161 seconds 
