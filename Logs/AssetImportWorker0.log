@@ -198,3 +198,45 @@ Received Import Request.
   path: Assets/Scripts/PlayerWonSignal.cs
   artifactKey: Guid(a22a250f881ccfe43bdf03a5d169eb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/PlayerWonSignal.cs using Guid(a22a250f881ccfe43bdf03a5d169eb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19563a50f4e029a91f9f7e2f2de9398') in 0.057177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3390.513276 seconds.
+  path: Assets/Scripts/GameInstaller.cs
+  artifactKey: Guid(db11c234079c9ee4b86bcd6c9859fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameInstaller.cs using Guid(db11c234079c9ee4b86bcd6c9859fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb12d894e5f4401b7ad84a22b3e0ef0') in 0.014860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1292.184182 seconds.
+  path: Assets/Scripts/GameInstaller.cs
+  artifactKey: Guid(db11c234079c9ee4b86bcd6c9859fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameInstaller.cs using Guid(db11c234079c9ee4b86bcd6c9859fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efdac595d009c98d6cf60fc1ba7e08c') in 0.021889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.862094 seconds.
+  path: Assets/Scripts/Units/OpponentController.cs
+  artifactKey: Guid(85e94662a81ba544b816e67367ccef58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Units/OpponentController.cs using Guid(85e94662a81ba544b816e67367ccef58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6edad9d58e59d4797610cbbf44b1b075') in 0.028040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 462.776605 seconds.
+  path: Assets/Scripts/Units/PlayerController.cs
+  artifactKey: Guid(67d0972216b165b43b7d30c13bd12e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Units/PlayerController.cs using Guid(67d0972216b165b43b7d30c13bd12e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6547aa9ac580db736421b2f888e063') in 0.025496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.847149 seconds.
+  path: Assets/Scripts/Units/PlayerController.cs
+  artifactKey: Guid(67d0972216b165b43b7d30c13bd12e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Units/PlayerController.cs using Guid(67d0972216b165b43b7d30c13bd12e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f168ea1fa6a3009d2ca19b99fecd4f5d') in 0.082301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.207087 seconds.
+  path: Assets/Scripts/Units/PlayerController.cs
+  artifactKey: Guid(67d0972216b165b43b7d30c13bd12e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Units/PlayerController.cs using Guid(67d0972216b165b43b7d30c13bd12e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9332c17ca9aa7e2ccb22d19e26e4470c') in 0.010183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.643833 seconds.
+  path: Assets/Scripts/GameController.cs
+  artifactKey: Guid(d7adf757fd8acaf40bcb66617288a9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameController.cs using Guid(d7adf757fd8acaf40bcb66617288a9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9302f5c4a08f6f53d0af7472baeb08c') in 0.009629 seconds 
