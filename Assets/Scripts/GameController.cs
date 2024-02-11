@@ -16,6 +16,8 @@ public class GameController : MonoBehaviour
 	[Inject] private PlayerWonSignal _playerWonSignal;
 	[Inject] private OpponentWonSignal _opponentWonSignal;
 
+	private GameObject 
+
     public void Start()
     {
         _uiController.HideGamePanel();
@@ -27,12 +29,25 @@ public class GameController : MonoBehaviour
 	{
 		Debug.Log("Player won");
 		_timeController.SetPauseOn();
+		OnGameEnd();
 	}
 
 	public void OpponentWonEvent()
 	{
 		Debug.Log("Opponent won");
 		_timeController.SetPauseOn();
+		OnGameEnd();
+	}
+
+	private void OnGameEnd()
+	{
+		_uiController.ShowMenuPanel();
+	}
+
+	void OnApplicationQuit()
+	{
+		_playerWonSignal.UnListen(PlayerWonEvent);
+		_opponentWonSignal.UnListen(OpponentWonEvent);
 	}
 
     public void Play()
@@ -44,6 +59,8 @@ public class GameController : MonoBehaviour
 
 		CreatePlayers();
 		CreateOpponents();
+
+		_timeController.SetPauseOff();
     }
 
 	private void CreateOpponents()
