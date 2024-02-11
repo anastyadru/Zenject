@@ -174,3 +174,27 @@ Received Import Request.
   path: Assets/Scripts/PlayerWonSignal.cs
   artifactKey: Guid(a22a250f881ccfe43bdf03a5d169eb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/PlayerWonSignal.cs using Guid(a22a250f881ccfe43bdf03a5d169eb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5ed8c81ad2602f41126c149e1b3268') in 0.007161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40086.173859 seconds.
+  path: Assets/Scripts/GameController.cs
+  artifactKey: Guid(d7adf757fd8acaf40bcb66617288a9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameController.cs using Guid(d7adf757fd8acaf40bcb66617288a9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9bdebf29e6172173f62dd1c54a2463') in 0.033557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.132518 seconds.
+  path: Assets/Scripts/GameController.cs
+  artifactKey: Guid(d7adf757fd8acaf40bcb66617288a9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameController.cs using Guid(d7adf757fd8acaf40bcb66617288a9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bdc2ccd2295933635e2aa814597e082') in 0.038137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.864564 seconds.
+  path: Assets/Scripts/PlayerWonSignal.cs
+  artifactKey: Guid(a22a250f881ccfe43bdf03a5d169eb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerWonSignal.cs using Guid(a22a250f881ccfe43bdf03a5d169eb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57048537a20657722a7eb72bcfd565fa') in 0.041447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 602.286645 seconds.
+  path: Assets/Scripts/PlayerWonSignal.cs
+  artifactKey: Guid(a22a250f881ccfe43bdf03a5d169eb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerWonSignal.cs using Guid(a22a250f881ccfe43bdf03a5d169eb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19563a50f4e029a91f9f7e2f2de9398') in 0.057177 seconds 
