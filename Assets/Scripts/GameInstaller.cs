@@ -13,8 +13,10 @@ public class GameInstaller : MonoInstaller
         
         Container.BindFactory<float, float, GameController, PlayerController, PlayerController.PlayerFabrik>()
             .FromPrefab(_gameConfig.PlayerPrefab);
+            .WithGameObjectName("Player");
         
         Container.BindFactory<float, float, GameController, OpponentController, OpponentController.OpponentFabrik>()
             .FromPrefab(_gameConfig.OpponentPrefab);
+            .WithGameObjectName("Enemy");
     }
 }

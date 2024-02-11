@@ -24,10 +24,10 @@ public class GameController : MonoBehaviour
         _uiController.HideMenuPanel();
         _uiController.ShowGamePanel();
 
-        createFinish();
+        CreateFinish();
 
-		CreateOpponents();
 		CreatePlayers();
+		CreateOpponents();
     }
 
 	private void CreateOpponents()
