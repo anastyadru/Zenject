@@ -18,5 +18,8 @@ public class GameInstaller : MonoInstaller
         Container.BindFactory<float, float, GameController, OpponentController, OpponentController.OpponentFabrik>()
             .FromPrefab(_gameConfig.OpponentPrefab)
             .WithGameObjectName("Enemy");
+        
+        Container.BindSignal<OpponentWonSignal>();
+        Container.BindSignal<PlayerWonSignal>();
     }
 }
