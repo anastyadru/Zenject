@@ -21,5 +21,7 @@ public class GameInstaller : MonoInstaller
         
         Container.BindSignal<OpponentWonSignal>();
         Container.BindSignal<PlayerWonSignal>();
+        Container.BindSignal<GameStartedSignal>();
+        Container.BindSignal<GameFinishedSignal>();
     }
 }

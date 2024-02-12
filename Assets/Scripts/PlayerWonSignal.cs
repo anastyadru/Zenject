@@ -9,3 +9,13 @@ public class OpponentWonSignal : Signal<OpponentWonSignal>
 {
 
 }
+
+public class GameStartedSignal : Signal<GameStartedSignal>
+{
+
+}
+
+public class GameFinishedSignal : Signal<GameFinishedSignal>
+{
+
+}

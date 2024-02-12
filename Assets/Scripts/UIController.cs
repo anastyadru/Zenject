@@ -8,8 +8,15 @@ public class UIController : MonoBehaviour
     [SerializeField] private GameObject _menuPanel;
     [SerializeField] private GameObject _gamePanel;
     
-    [Inject]
-    private GameController _gameController;
+    [Inject] private GameController _gameController;
+    [Inject] private GameStartedSignal _gameStartedSignal;
+    [Inject] private GameFinishedSignal _gameFinishedSignal;
+
+    private void Start
+    {
+        _gameStartedSignal.Listen();
+        _gameFinishedSignal.Listen();
+    }
 
     void OnValidate()
     {

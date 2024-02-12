@@ -18,6 +18,8 @@ public class UntitledUnitTest : ZenjectUnitTestFixture
         Container.BindSignal<PlayerWonSignal>();
         
         Container.Bind<GameConfig>().FromMock();
+        Container.Bind<GameController>().FromGameObject();
+        Container.Bind<UIController>().FromGameObject();
 
         Container.Inject(this);
     }
@@ -28,6 +30,7 @@ public class UntitledUnitTest : ZenjectUnitTestFixture
     [Test]
     public void IsPlayerNotNull_Test()
     {
-        
+        _gameController.Play();
+        Assert.IsNotNull(_gameController.Player);
     }
 }

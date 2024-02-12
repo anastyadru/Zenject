@@ -19,21 +19,21 @@ public class GameController : MonoBehaviour
 	public GameObject Player;
 	public GameObject[] Opponents;
 
-    public void Start()
+	private void Start()
     {
         _uiController.HideGamePanel();
 		_playerWonSignal.Listen(PlayerWonEvent);
 		_opponentWonSignal.Listen(OpponentWonEvent);
     }
 
-	public void PlayerWonEvent()
+	private void PlayerWonEvent()
 	{
 		Debug.Log("Player won");
 		_timeController.SetPauseOn();
 		OnGameEnd();
 	}
 
-	public void OpponentWonEvent()
+	private void OpponentWonEvent()
 	{
 		Debug.Log("Opponent won");
 		_timeController.SetPauseOn();
