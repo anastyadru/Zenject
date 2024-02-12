@@ -16,8 +16,8 @@ public class GameController : MonoBehaviour
 	[Inject] private PlayerWonSignal _playerWonSignal;
 	[Inject] private OpponentWonSignal _opponentWonSignal;
 
-	private GameObject _player;
-	private GameObject[] _opponents;
+	public GameObject Player;
+	public GameObject[] Opponents;
 
     public void Start()
     {
