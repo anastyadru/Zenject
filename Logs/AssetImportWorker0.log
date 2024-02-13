@@ -132,3 +132,9 @@ Received Import Request.
   path: Assets/Scripts/UIController.cs
   artifactKey: Guid(aea3d50e232491d469623f8ffd529f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/UIController.cs using Guid(aea3d50e232491d469623f8ffd529f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980b0cb1caf391f9196d03575a5cd4ca') in 0.020971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 92677.333369 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(e250600347a203144bafb99e09622a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(e250600347a203144bafb99e09622a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd3b7878b9b2c8fd05b33a40f1e3cd0') in 0.211967 seconds 
