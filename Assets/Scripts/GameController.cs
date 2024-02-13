@@ -8,20 +8,21 @@ public class GameController : MonoBehaviour
     
     [Inject] private TimeController _timeController;
     [Inject] private UnitPositionController _positionController;
-    [Inject] private UIController _uiController;
     [Inject] private GameObject _finishPrefab;
 	[Inject] private GameConfig _gameConfig;
 	[Inject] private OpponentController.OpponentFabrik _opponentFabrik;
 	[Inject] private PlayerController.PlayerFabrik _playerFabrik;
 	[Inject] private PlayerWonSignal _playerWonSignal;
 	[Inject] private OpponentWonSignal _opponentWonSignal;
+	[Inject] private GameStartedSignal _gameStartedSignal;
+	[Inject] private GameFinishedSignal _gameFinishedSignal;
 
 	public GameObject Player;
 	public GameObject[] Opponents;
 
 	private void Start()
-    {
-        _uiController.HideGamePanel();
+	{
+		_gameFinishedSignal.Fire();
 		_playerWonSignal.Listen(PlayerWonEvent);
 		_opponentWonSignal.Listen(OpponentWonEvent);
     }
@@ -42,7 +43,7 @@ public class GameController : MonoBehaviour
 
 	private void OnGameEnd()
 	{
-		_uiController.ShowMenuPanel();
+		_gameFinishedSignal.Fire();
 	}
 
 	void OnApplicationQuit()
@@ -53,33 +54,32 @@ public class GameController : MonoBehaviour
 
     public void Play()
     {
-        _uiController.HideMenuPanel();
-        _uiController.ShowGamePanel();
-
-        CreateFinish();
+		CreateFinish();
 
 		_positionController.Reset();
 		CreatePlayers();
 		CreateOpponents();
 
 		_timeController.SetPauseOff();
+
+		_gameStartedSignal.Fire();
     }
 
 	private void CreateOpponents()
 	{
-		if (_opponents == null)
+		if (Opponents == null || !Opponents.Any())
 		{
-			_opponents = new GameObject[_gameConfig.OpponentsCount];
+			Opponents = new GameObject[_gameConfig.OpponentsCount];
 			for (int i = 0; i < _gameConfig.OpponentsCount; i++)
 			{
-				_opponents[i] = _opponentFabrik.Create(Random.Range(_gameConfig.OpponentMinSpeed, _gameConfig.OpponentMaxSpeed),
+				Opponents[i] = _opponentFabrik.Create(Random.Range(_gameConfig.OpponentMinSpeed, _gameConfig.OpponentMaxSpeed),
 				_gameConfig.FinishPos.y, this).gameObject;
 			}
 		}
 
 		for (int i = 0; i < _gameConfig.OpponentsCount; i++)
 		{
-			_opponent[i].transform.position = _positionController.GetNewPos();
+			Opponents[i].transform.position = _positionController.GetNewPos();
 		}
 
 	}
@@ -100,8 +100,7 @@ public class GameController : MonoBehaviour
     
     public void Restart()
     {
-        _uiController.ShowMenuPanel();
-        _uiController.HideGamePanel();
+	    Play();
     }
     
     public void Exit()

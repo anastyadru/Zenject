@@ -12,10 +12,28 @@ public class UIController : MonoBehaviour
     [Inject] private GameStartedSignal _gameStartedSignal;
     [Inject] private GameFinishedSignal _gameFinishedSignal;
 
-    private void Start
+    private void Start()
     {
-        _gameStartedSignal.Listen();
-        _gameFinishedSignal.Listen();
+        _gameStartedSignal.Listen(GameStarted);
+        _gameFinishedSignal.Listen(GameFinished);
+    }
+    
+    private void OnApplicationQuit()
+    {
+        _gameStartedSignal.Unlisten(GameStarted);
+        _gameFinishedSignal.Unlisten(GameFinished);
+    }
+
+    private void GameStarted()
+    {
+        HideMenuPanel();
+        ShowGamePanel();
+    }
+    
+    private void GameFinished()
+    {
+        ShowMenuPanel();
+        HideGamePanel();
     }
 
     void OnValidate()
