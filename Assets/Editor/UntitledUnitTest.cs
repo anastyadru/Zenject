@@ -39,4 +39,12 @@ public class UntitledUnitTest : ZenjectUnitTestFixture
         _gameController.Play();
         Assert.IsNotNull(_gameController.Player);
     }
+    
+    [Test]
+    public void OpponentsCreate_Test()
+    {
+        _config.OpponentsCount = 25;
+        _gameController.Play();
+        Assert.AreEqual(_gameController.Opponents.Length, _config.OpponentsCount);
+    }
 }
