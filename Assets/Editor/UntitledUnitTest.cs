@@ -10,9 +10,9 @@ public class UntitledUnitTest : ZenjectUnitTestFixture
         Container.Bind<TimeController>().AsSingle();
         Container.Bind<UnitPositionController>().AsSingle();
 
-        Container.BindFactory<float, float, GameController, PlayerController, PlayerController.PlayerFabrik>();
+        Container.BindFactory<float, float, GameController, PlayerController, PlayerController.PlayerFabrik>().FromGameObject();
 
-        Container.BindFactory<float, float, GameController, OpponentController, OpponentController.OpponentFabrik>();
+        Container.BindFactory<float, float, GameController, OpponentController, OpponentController.OpponentFabrik>().FromGameObject();
 
         Container.BindSignal<OpponentWonSignal>();
         Container.BindSignal<PlayerWonSignal>();
@@ -20,7 +20,13 @@ public class UntitledUnitTest : ZenjectUnitTestFixture
         Container.Bind<GameConfig>().FromMock();
         Container.Bind<GameController>().FromGameObject();
         Container.Bind<UIController>().FromGameObject();
+        Container.Bind<GameObject>().FromGameObject();
 
+        Container.BindSignal<OpponentWonSignal>();
+        Container.BindSignal<PlayerWonSignal>();
+        Container.BindSignal<GameStartedSignal>();
+        Container.BindSignal<GameFinishedSignal>();
+        
         Container.Inject(this);
     }
     
